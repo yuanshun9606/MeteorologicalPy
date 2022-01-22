@@ -6,6 +6,7 @@
 - 勾选 Run with Python console
 > 使用方式:可以在Python console终端进行交互式调试,如输入变量名，回车后自动输出改变量名结果；输入可执行语句也能执行。
 ### NC文件结构
+> 气象数据来源:[NCEP-DOE Reanalysis 2: Pressure Level](https://psl.noaa.gov/data/gridded/data.ncep.reanalysis2.pressure.html)
 ```python
 import xarray as xr
 file = xr.open_dataset('D:\mywork\meteorological\\air.mon.mean.nc')
